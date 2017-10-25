@@ -1,0 +1,23 @@
+{
+    "name": "kilbiller/khalan-repro",
+    "authors": [
+        {
+            "name": "Rémy Peru",
+            "email": "peru.remy@gmail.com"
+        }
+    ],
+    "require": {
+        "kilbiller/cakephp": "^2.10"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "4.0.5"
+	},
+	"autoload": {
+        "psr-4": {
+            "Invityou\\": "app/"
+		}
+	},
+	"scripts": {
+		"test": "kahlan"
+	}
+}
